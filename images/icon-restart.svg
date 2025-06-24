@@ -1,0 +1,6 @@
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Restart Icon</title>
+  <circle cx="35" cy="35" r="30" fill="#E0E0E0"/>
+  <path d="M35 15 C45 15, 50 25, 50 35 C50 45, 45 55, 35 55 C25 55, 20 45, 20 35 C20 25, 25 15, 35 15Z" fill="#757575"/>
+  <path d="M45 20L55 30L45 40" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
