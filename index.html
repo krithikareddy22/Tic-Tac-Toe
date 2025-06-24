@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Mochiy+Pop+One&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/89300977dc.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="index.js"></script>
+    <title>Krithika's Tic Tac Toe</title>
+  </head>
+  <body>
+    <main id="main-content">
+      <article class="secondary-container">
+        <article class="game-start-menu show" id="game-start-menu">
+          <header class="logo">
+            <img src="./images/logo.svg" />
+          </header>
+          <section class="secondary-container pick-player-container">
+            <h1 class="header font-one">Pick player 1's mark</h1>
+            <div class="third-container pick-players">
+              <button class="pick-player-button icon-x">x</button>
+              <button class="pick-player-button icon-circle light-background">
+                o
+              </button>
+            </div>
+            <h2 class="header font-two">Remember: X goes first</h2>
+            <h2 class="header font-two" id="playerDisplay"></h2>
+          </section>
+          <section class="secondary-container">
+            <button class="button-yellow button-font" id="new-game-solo">
+              (Me vs CPU)
+            </button>
+            
+          </section>
+        </article>
+      </article>
+
+      <article class="secondary-container">
+        <section class="game-board show hide" id="game-board">
+          <header class="game-board-navbar">
+            <div class="navbar-item navbar-logo">
+              <img src="./images/logo.svg" />
+            </div>
+            <div class="navbar-item">
+              <div class="turn-button"></div>
+            </div>
+            <div class="navbar-item restart">
+              <button class="restart-button">
+                <i class="fa-solid fa-rotate-right"></i>
+              </button>
+            </div>
+          </header>
+
+          <section class="game-board-grid" id="game-board-grid">
+            <section>
+              <span class="box1"></span>
+              <span class="box2"></span>
+              <span class="box3"></span>
+            </section>
+            <section>
+              <span class="box4"></span>
+              <span class="box5"></span>
+              <span class="box6"></span>
+            </section>
+            <section>
+              <span class="box7"></span>
+              <span class="box8"></span>
+              <span class="box9"></span>
+            </section>
+          </section>
+
+          <section class="secondary-container">
+            <section class="score-board">
+              <div class="score-board-item player-one-container">
+                <div class="score-item">
+                  <p id="player-one"></p>
+                  <p id="playerXScore" class="number-score">0</p>
+                </div>
+              </div>
+              <div class="score-board-item ties-score-container">
+                <div class="score-item">
+                  <p>Ties</p>
+                  <p id="tiesScore" class="number-score">0</p>
+                </div>
+              </div>
+              <div class="score-board-item player-two-container">
+                <div class="score-item">
+                  <p id="player-two"></p>
+                  <p id="playerCircleScore" class="number-score">0</p>
+                </div>
+              </div>
+            </section>
+          </section>
+
+          <article class="game-end-message" id="game-end-message">
+            <section class="game-end-container">
+              <h2 class="game-end-header-small"></h2>
+              <h3 class="game-end-header-large"></h3>
+              <div class="game-end-buttons">
+                <button class="quit-button">Quit</button>
+                <button class="next-round-button">Next Round</button>
+              </div>
+            </section>
+          </article>
+
+          <article class="game-tied-message" id="game-tied-message">
+            <section class="game-tied-container">
+              <h3 class="game-tied-header-large">Round Tied</h3>
+              <div class="game-tied-buttons">
+                <button class="quit-tied-button">Quit</button>
+                <button class="next-round-tied-button">Next Round</button>
+              </div>
+            </section>
+          </article>
+
+          <article class="restart-game-message" id="restart-game-message">
+            <section class="restart-game-container">
+              <h3 class="restart-game-header-large">Restart Game?</h3>
+              <div class="restart-game-buttons">
+                <button class="cancel-restart-button">No, Cancel</button>
+                <button class="confirm-restart-button">Yes, Restart</button>
+              </div>
+            </section>
+          </article>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
