@@ -52,7 +52,6 @@ tic-tac-toe/
 ├── index.js             → Game logic (player turns, win check)  
 ├── images/              → Contains logo and icons  
 ├── README.txt           → Project documentation (this file)  
-├── LICENSE              → License info  
 
 🚀 Future Enhancements
 -----------------------
@@ -66,9 +65,3 @@ tic-tac-toe/
 ------------
 
 Made with ❤️ by **Krithika Reddy**
-
-📄 License
------------
-
-📝 This project is licensed under the **MIT License**.  
-See the `LICENSE` file for full details.
