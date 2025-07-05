@@ -32,17 +32,14 @@ A beautifully designed and interactive Tic Tac Toe game built using HTML, CSS, a
 🛠️ Technologies Used
 ---------------------
 
-🔹 HTML5  
-🔹 CSS3  
-🔹 JavaScript (Vanilla)  
-🔹 Google Fonts (Outfit, Mochiy Pop One)  
-🔹 Font Awesome (for icons)
+🔹 HTML
+🔹 CSS
+🔹 JavaScript
 
 🕹️ How to Play
 ---------------
 
 1️⃣ Pick Player 1's mark: ❌ or ⭕
-
 2️⃣ Choose Solo Mode (vs CPU)  
 3️⃣ Player ❌ always goes first  
 4️⃣ Get three marks in a row to win  
