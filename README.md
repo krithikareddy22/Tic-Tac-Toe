@@ -66,7 +66,6 @@ tic-tac-toe/
 ├── images/              → Contains logo and icons  
 ├── screenshots/         → Contains game screenshots  
 ├── README.txt           → Project documentation (this file)  
-├── LICENSE              → License info  
 
 🚀 Future Enhancements
 -----------------------
