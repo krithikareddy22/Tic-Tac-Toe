@@ -14,20 +14,19 @@ A beautifully designed and interactive Tic Tac Toe game built using HTML, CSS, a
 🔁 Game restart, next round, and quit options  
 📱 Responsive layout and modern fonts/icons
 
-📸 Screenshots
---------------
+## 📸 Screenshots
 
-1. Start Menu: Choose player mark  
-   (screenshots/start-screen.png)
+1. **Start Menu: Choose player mark**  
+   ![Start Menu](Screenshots/start-screen.png)
 
-2. In-Game Board  
-   (screenshots/game-board.png)
+2. **In-Game Board**  
+   ![Game Board](Screenshots/game-board.png)
 
-3. Win Message / End Round  
-   (screenshots/game-win.png)
+3. **Win Message / End Round**  
+   ![Win Message](Screenshots/game-win.png)
 
-4. Round Tied Message  
-   (screenshots/game-tied.png)
+4. **Round Tied Message**  
+   ![Tied Message](Screenshots/gmae-tied.png)
 
 🛠️ Technologies Used
 ---------------------
